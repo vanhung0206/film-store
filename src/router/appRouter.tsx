@@ -17,7 +17,10 @@ const appRouter = createBrowserRouter(
         },
       ],
     },
-  ]
+  ],
+  {
+    basename: "/filmstore19xx",
+  }
 );
 
 export default appRouter;
