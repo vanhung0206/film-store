@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Archivo;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/archivo_n4.abb5ec97705c33fe369ef678fc93b9cf87658330.woff2") format("woff2"), url("/archivo_n4.0ae8e008abb455fbd654c11c5b30dc47b6849133.woff") format("woff");
+}
+
+@font-face {
+    font-family: Archivo;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/archivo_n4.abb5ec97705c33fe369ef678fc93b9cf87658330-2.woff2") format("woff2"), url("/archivo_n4.0ae8e008abb455fbd654c11c5b30dc47b6849133-2") format("woff");
+}
+
+@font-face {
+    font-family: Archivo;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("/archivo_n6.1c7c5a103e7ce5904146bdc8185bb04724ca217a.woff2") format("woff2"), url("/archivo_n6.73bf910681d1d187dcf6155c4f8a2c6fe79ac7be.woff") format("woff");
+}
+
+@font-face {
+    font-family: Archivo;
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("/archivo_i4.a95feba2fc444cfedf1a05723e49fbee7d12512b.woff2") format("woff2"), url("/archivo_i4.9734cbbe4db53e64fe62bb6fe5f4ef00f6bc0c85.woff") format("woff");
+}
+
+@font-face {
+    font-family: Archivo;
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+    src: url("/archivo_i6.243682eac95afbeca7583f60c388b9a35a735280.woff2") format("woff2"), url("/archivo_i6.502cd191c9502df39e7033e0cdf815ae5008ab20.woff") format("woff");
+}
+
+*,body,html {
+    font-family: var(--typeHeaderPrimary), var(--typeHeaderFallback);
+}

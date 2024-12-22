@@ -1,0 +1,51 @@
+:root {
+  --typeHeaderPrimary: Archivo;
+  --typeHeaderFallback: serif;
+  --typeHeaderSize: 36px;
+  --typeHeaderWeight: 400;
+  --typeHeaderLineHeight: 1;
+  --typeHeaderSpacing: 0.0em;
+  --typeBasePrimary: Archivo;
+  --typeBaseFallback: serif;
+  --typeBaseSize: 18px;
+  --typeBaseWeight: 400;
+  --typeBaseSpacing: 0.025em;
+  --typeBaseLineHeight: 1.4;
+  --typeBaselineHeightMinus01: 1.3;
+  --typeCollectionTitle: 20px;
+  --iconWeight: 2px;
+  --iconLinecaps: miter;
+  --buttonRadius: 0;
+  --colorGridOverlayOpacity: 0.1;
+
+  /* Variable of home page */
+  --main-color: #443;
+  --border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;
+  --border-radius-hover: 4% 95% 6% 95% / 95% 4% 92% 5%;
+  --border: .2rem solid var(--main-color);
+  --border-hover: .2rem dashed var(--main-color);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-padding-top: 7rem;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
