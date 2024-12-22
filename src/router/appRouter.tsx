@@ -19,7 +19,7 @@ const appRouter = createBrowserRouter(
     },
   ],
   {
-    basename: "/filmstore19xx",
+    basename: "/film-store",
   }
 );
 
